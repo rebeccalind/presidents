@@ -1,14 +1,15 @@
 body {
-  font-family: Muli, sans-serif;
-  text-align: center;
+    font-family: Muli, sans-serif;
+    text-align: center;
+    margin: 0 auto;
     width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -49,27 +50,193 @@ body {
 
 
 .wrapper {
-  max-width: 800px;
-  margin: 50px auto;
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-  font-weight: 200;
-  font-size: 45px;
-  margin: 0 0 0.1em 0;
+    font-weight: 200;
+    font-size: 45px;
+    margin: 0 0 0.1em 0;
     color: white;
 }
 
 h2 {
-  font-weight: 200;
-  font-size: 24px;
-  margin-top: 30px;
-  color: lightgrey;
+    font-weight: 200;
+    font-size: 24px;
+    margin-top: 30px;
+    color: lightgrey;
 }
 
-
-#doughnut-chart {
+#doughnut-chart-one {
     font-family: Muli, sans-serif;
     padding: 60px 0;
     color: white;
+}
+
+#doughnut-chart-two {
+    font-family: Muli, sans-serif;
+    padding: 60px 0;
+    color: white;
+}
+
+#doughnut-chart-three {
+    font-family: Muli, sans-serif;
+    padding: 60px 0;
+    color: white;
+}
+
+#doughnut-chart-four {
+    font-family: Muli, sans-serif;
+    padding: 60px 0;
+    color: white;
+}
+
+#doughnut-chart-five {
+    font-family: Muli, sans-serif;
+    padding: 60px 0;
+    color: white;
+}
+
+#doughnut-chart-six {
+    font-family: Muli, sans-serif;
+    padding: 60px 0;
+    color: white;
+}
+
+#sidebar-wrapper {
+    width: 30%;
+    display: flex;
+    margin-left: 0px;
+}
+
+.sidebar-nav {
+    width: 200px;
+    margin-left: -40px;
+    margin-top: 0px;
+}
+
+.color {
+    color: lightgrey;
+}
+
+.sidebar-nav ul {
+
+}
+
+.sidebar-nav li {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav a {
+    text-decoration: none;  
+    color: white;
+}
+
+.sidebar-nav a:hover {
+    color: lightgrey;
+}
+
+#lowerbar-wrapper {
+    display: none;
+}
+    
+@media only screen and (max-width: 1040px) {
+    
+    .sidebar-nav {
+        display: none;
+    }
+    
+    .wrapper {
+        margin-top: 30px;
+    }
+    
+    #lowerbar-wrapper {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .lowerbar-nav {
+        width: 100%;
+        margin-top: -30px;
+    }
+    
+    .lowerbar-nav ul {
+        
+    }
+
+    .lowerbar-nav li {
+        list-style-type: none;
+        padding: 5px;
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .lowerbar-nav a {
+        text-decoration: none;  
+        color: white;
+    }
+
+    .lowerbar-nav a:hover {
+        color: lightgrey;
+    }
+    
+    #doughnut-chart-one {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #doughnut-chart-two {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #doughnut-chart-three {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #doughnut-chart-four {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #doughnut-chart-five {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #doughnut-chart-six {
+        font-family: Muli, sans-serif;
+        padding: 30px 0;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
 }

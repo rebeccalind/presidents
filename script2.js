@@ -1,4 +1,4 @@
-var chartOne = new Chart(document.getElementById("doughnut-chart-one"), {
+var chartTwo = new Chart(document.getElementById("doughnut-chart-two"), {
     type: 'doughnut',
     data: {
       labels: ["Female", "Male"],
@@ -8,7 +8,7 @@ var chartOne = new Chart(document.getElementById("doughnut-chart-one"), {
             borderColor: ["blue", "white"],
             fontFamily: ["Muli"],
             fontColor: ["white"],
-            data: [0,45]
+            data: [2,52]
         }
       ]
     },
